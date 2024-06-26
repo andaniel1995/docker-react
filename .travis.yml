@@ -6,4 +6,4 @@ before_install:
   - docker build -t andaniel1995/frontend -f Dockerfile.dev .
 
 script:
-  - docker run andaniel1995/frontend npm run test -- --coverage
+  - docker run andaniel1995/frontend npm run test -- --coverage 
